@@ -62,9 +62,10 @@ public class MatrixBfs {
 
     public static void main(String[] args) {
         int [][] matrix = {
-                {1, 1, 1},
-                {1, 1, 1},
-                {1, 1, 1}
+                {1, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1}
         };
 
         bfs(matrix, 1, 1);
